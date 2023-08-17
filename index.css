@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e243c;
+    height: 80px;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+#check {
+    display: none;
+}
+
+nav ul li a:hover {
+    color: #ef524a;
+    background-color: #273a50;
+}
+
+/*HASTA ACA FUE EL ENCABEZADO*/
+
+.portade { 
+    display: flex;
+    background-image: linear-gradient(0deg, 
+    rgba(228, 228, 228, 0.781), 
+    rgba(228, 228, 228, 0.781)),
+    url(img/fondo.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h2 {
+    font-size: 100px;
+    color: #0e243c;
+}
+
+.title h3 {
+    font-size: 26px;
+    color: #0e243c;
+}
+
+.title button {
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #ef524a;
+    border: transparent;
+}
+
+/*HASTA ACA FUE LA PORTADA*/
+
+.destacade {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-destacade {
+    display: flex;
+}
+
+.destacade h2 {
+    margin-bottom: 20px;
+}
+
+.product {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    height: 450px;
+    width: 250px;
+}
+
+.product p {
+    color: rgb(94, 94, 94);
+}
+
+.product1 {
+
+    background-image: url(img/1-1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+}
+
+.product1:hover {
+    background-image: url(img/1-2.webp);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+
+}
+
+.product2 {
+    background-image: url(img/2-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+}
+
+.product2:hover {
+    background-image: url(img/2-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+
+}
+
+.product3 {
+    background-image: url(img/3-1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+}
+
+.product3:hover {
+    background-image: url(img/3-2.webp);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+
+}
+
+.product4 {
+    background-image: url(img/4-1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+}
+
+.product4:hover {
+    background-image: url(img/4-2.webp);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+
+}
+
+.product5 {
+    background-image: url(img/5-1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+}
+
+.product button {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;    
+    font-size: 15px;
+    color: white;
+    background-color: #ef524a;
+    border: transparent;
+    margin: 5px;
+    padding: 5px
+}
+
+
+
+
+
+
+
+.categoris {
+    font-family: ;
+    margin-top: 30px;
+    background-color: #0e243c;
+    width: 100%;
+    height: 200px;
+}
